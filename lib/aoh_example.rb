@@ -37,7 +37,7 @@ assembled_aoh
 # aoh_lookup(assembled_aoh, [2], [:name])
 
 def aoh_update(aoh, row, key, new_value)
-  aoh = infinite_Jest
+  infinite_Jest = aoh
   infinite_Jest = [
     { name:  "Don Gately", occupation: "Live-in Staff" },
     { name:  "Joelle van Dyne", occupation: "Radio Personality" },
