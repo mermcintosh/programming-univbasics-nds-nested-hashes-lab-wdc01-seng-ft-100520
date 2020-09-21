@@ -36,6 +36,6 @@ infinite_Jest = [
 # aoh_lookup(assembled_aoh, [2], [:name])
 
 def aoh_update(aoh, row, key, new_value)
-p assembled_aoh
+p infinite_Jest
 end
 aoh_update(infinite_Jest, [2], [:name], "Meredith McIntosh")
