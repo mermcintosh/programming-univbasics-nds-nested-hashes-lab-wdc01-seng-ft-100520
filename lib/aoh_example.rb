@@ -11,16 +11,16 @@ def assembled_aoh
 end
 assembled_aoh
 
-# def literal_aoh
-#   infinite_Jest = [
-#     { name:  "Don Gately", occupation: "Live-in Staff" },
-#     { name:  "Joelle van Dyne", occupation: "Radio Personality" },
-#     { name:  "Pat Monteseian", occupation: "Staff" },
-#     { name:  "Kate Gompert", occupation: "None" },
-#     { name:  "Bruce Green", occupation: "Fan of Mildred" },
-#     ]
-# end
-# literal_aoh
+def literal_aoh
+  infinite_Jest = [
+    { name:  "Don Gately", occupation: "Live-in Staff" },
+    { name:  "Joelle van Dyne", occupation: "Radio Personality" },
+    { name:  "Pat Monteseian", occupation: "Staff" },
+    { name:  "Kate Gompert", occupation: "None" },
+    { name:  "Bruce Green", occupation: "Fan of Mildred" },
+    ]
+end
+literal_aoh
 
 # def aoh_lookup(aoh, row, key)
 #   assembled_aoh[2][:name]
