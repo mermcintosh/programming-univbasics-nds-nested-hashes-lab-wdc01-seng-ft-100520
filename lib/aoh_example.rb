@@ -44,7 +44,7 @@ def aoh_update(aoh, row, key, new_value)
     { name:  "Kate Gompert", occupation: "None" },
     { name:  "Bruce Green", occupation: "Fan of Mildred" },
     ]
-    binding.pry
+binding.pry
     infinite_Jest[0][:name] = "Meredith McIntosh"
 end
 aoh_update(aoh, row, key, new_value)
