@@ -27,7 +27,8 @@ def aoh_lookup(aoh, row, key)
 end
 aoh_lookup(assembled_aoh, [2], [:name])
 
-def aoh_update(aoh, row, key, new_value)
+def aoh_update
+  # (aoh, row, key, new_value)
 assembled_aoh[2][:name]="Meredith McIntosh"
 assembled_aoh
 end
