@@ -28,6 +28,6 @@ end
 aoh_lookup(assembled_aoh, [2], [:name])
 
 def aoh_update(aoh, row, key, new_value)
-assembled_aoh, [2], [:name], "Meredith McIntosh"
+aoh[row][key] = "new_value"
 end
 aoh_update(assembled_aoh, [2], [:name], "Meredith McIntosh")
