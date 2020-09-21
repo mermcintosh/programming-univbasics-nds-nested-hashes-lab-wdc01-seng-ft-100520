@@ -6,6 +6,14 @@ PAT_M =  { name:  "Pat Monteseian", occupation: "Staff" }
 KATE_G = { name:  "Kate Gompert", occupation: "None" }
 BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
 
+infinite_Jest = [
+    { name:  "Don Gately", occupation: "Live-in Staff" },
+    { name:  "Joelle van Dyne", occupation: "Radio Personality" },
+    { name:  "Pat Monteseian", occupation: "Staff" },
+    { name:  "Kate Gompert", occupation: "None" },
+    { name:  "Bruce Green", occupation: "Fan of Mildred" },
+    ]
+
 def assembled_aoh
   infinite_Jest = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
 end
@@ -29,5 +37,6 @@ aoh_lookup(assembled_aoh, [2], [:name])
 
 def aoh_update(aoh, row, key, new_value)
 
+
 end
-aoh_update(assembled_aoh, [2], [:name], "Meredith McIntosh")
+aoh_update(infinite_Jest, [2], [:name], "Meredith McIntosh")
