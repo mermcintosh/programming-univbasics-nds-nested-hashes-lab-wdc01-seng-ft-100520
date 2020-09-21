@@ -39,4 +39,4 @@ aoh_lookup(assembled_aoh, [2], [:name])
 def aoh_update(aoh, row, key, new_value)
     aoh[row][key] = new_value
 end
-aoh_update(infinite_Jest, 1, :name, "Joelle van Dyne (PGOAT")
+aoh_update(infinite_Jest, 1, :name, "Joelle van Dyne (PGOAT)")
