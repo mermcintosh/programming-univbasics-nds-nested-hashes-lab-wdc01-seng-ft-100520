@@ -23,7 +23,7 @@ end
 literal_aoh
 
 def aoh_lookup(aoh, row, key)
-  assembled_aoh[2][:name]
+  # assembled_aoh[2][:name]
 end
 aoh_lookup(assembled_aoh, [2], [:name])
 
