@@ -44,6 +44,6 @@ def aoh_update(aoh, row, key, new_value)
     { name:  "Bruce Green", occupation: "Fan of Mildred" },
     ]
     
-    infinite_Jest = 
+    infinite_Jest[0][:name] = "Meredith McIntosh"
 end
-aoh_update(infinite_Jest, [2], [:name], "Meredith McIntosh")
+aoh_update(aoh, row, key, new_value)
