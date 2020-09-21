@@ -36,6 +36,12 @@ infinite_Jest = [
 # aoh_lookup(assembled_aoh, [2], [:name])
 
 def aoh_update(aoh, row, key, new_value)
-p infinite_Jest
+  infinite_Jest = [
+    { name:  "Don Gately", occupation: "Live-in Staff" },
+    { name:  "Joelle van Dyne", occupation: "Radio Personality" },
+    { name:  "Pat Monteseian", occupation: "Staff" },
+    { name:  "Kate Gompert", occupation: "None" },
+    { name:  "Bruce Green", occupation: "Fan of Mildred" },
+    ]
 end
 aoh_update(infinite_Jest, [2], [:name], "Meredith McIntosh")
