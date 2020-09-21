@@ -37,8 +37,7 @@ end
 aoh_lookup(assembled_aoh, [2], [:name])
 
 def aoh_update(aoh, row, key, new_value)
+    aoh[row][:key] = new_value
     binding.pry
-    infinite_Jest = aoh
-    infinite_Jest[row][key] = new_value
 end
 aoh_update(infinite_Jest, [1], [:name], "Meredith McIntosh")
