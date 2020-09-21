@@ -47,4 +47,4 @@ def aoh_update(aoh, row, key, new_value)
     infinite_Jest = aoh
     infinite_Jest[row][key] = new_value
 end
-aoh_update(aoh, [1], [:name], "Meredith McIntosh")
+aoh_update(aoh, [1], [name:], "Meredith McIntosh")
